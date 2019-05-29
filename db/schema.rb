@@ -13,7 +13,6 @@
 ActiveRecord::Schema.define(version: 3) do
 
   create_table "costume_stores", force: :cascade do |t|
-    t.string "maker"
     t.string "name"
     t.string "location"
     t.integer "costume_inventory"
